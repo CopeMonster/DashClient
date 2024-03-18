@@ -1,0 +1,15 @@
+{
+	"required": true,
+	"package": "com.copemonster.mixins",
+	"compatibilityLevel": "JAVA_17",
+	"mixins": [
+		"ClientConnectionMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	},
+	"client": [
+		"KeyboardMixin",
+		"MinecraftClientMixin"
+	]
+}
